@@ -28,7 +28,7 @@ int main(void)
 		cu++;
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
