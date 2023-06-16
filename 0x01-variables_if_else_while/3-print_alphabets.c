@@ -21,13 +21,14 @@ int main(void)
 			cl++;
 	}
 
-	putchar('\n');
 
 	while (cu <= 'Z')
 	{
 		putchar(cu);
 		cu++;
 	}
+
+	putchar('\n')
 
 	return (0);
 }
