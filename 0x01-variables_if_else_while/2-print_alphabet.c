@@ -20,7 +20,7 @@ int main(void)
 			gg++;
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
