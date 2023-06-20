@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
+ *  print_last_digit - last digit
  *
- * @c: the character to be checked
- *
- * Return: 1 if c is a letter, 0 otherwise
+ *@n: The int to print
+ * Return: Always 0.
  */
 
 int print_last_digit(int n)
