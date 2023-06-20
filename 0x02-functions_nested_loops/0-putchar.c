@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 
 /**
@@ -7,10 +6,25 @@
  * Desciption: A C program that prints with put function
  *
  * Return: Always 0 (Success)
+ *
+ * ptch function is to print putchar
  */
+
+void ptch(char me)
+{
+	putchar(me);
+}
 
 int main(void)
 {
-        putchar("_putchar\n");
-        return (0);
+	ptch('_');
+	ptch('p');
+	ptch('u');
+	ptch('t');
+	ptch('c');
+	ptch('h');
+	ptch('a');
+	ptch('r');
+	putchar("\n");
+		return (0);
 }
