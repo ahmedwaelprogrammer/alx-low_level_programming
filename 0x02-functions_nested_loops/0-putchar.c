@@ -1,13 +1,10 @@
 #include "main.h"
 
+
 /**
  * main - Entry point
  *
- * Desciption: A C program that prints with put function
- *
- * Return: Always 0 (Success)
- *
- * ptch function is to print putchar
+ * Return: nothing, return void
  */
 
 int main(void)
@@ -20,6 +17,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar("\n");
-		return (0);
+	_putchar('\n');
+
+	return (0);
 }
