@@ -10,21 +10,16 @@
  * ptch function is to print putchar
  */
 
-void ptch(char me)
-{
-	putchar(me);
-}
-
 int main(void)
 {
-	ptch('_');
-	ptch('p');
-	ptch('u');
-	ptch('t');
-	ptch('c');
-	ptch('h');
-	ptch('a');
-	ptch('r');
-	putchar("\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar("\n");
 		return (0);
 }
