@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Desciption: A C program that prints with put function
+ * print_alphabet - print alphabet lowercase
  *
  * Return: Always 0 (Success)
  */
