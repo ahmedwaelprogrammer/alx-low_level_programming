@@ -18,7 +18,7 @@ void puts_half(char *str)
 		ln--;
 	}
 
-	while(i < ln)
+	while (i < ln)
 	{
 	if (str[i] == '\0')
 	{
@@ -30,7 +30,7 @@ void puts_half(char *str)
 	}
 	else if (strlen(str) % 2 != 0)
 	{
-		putchar(str[i+1]);
+		putchar(str[i + 1]);
 	}
 		i++;
 	}
