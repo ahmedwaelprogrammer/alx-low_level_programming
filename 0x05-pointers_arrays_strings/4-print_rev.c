@@ -10,11 +10,15 @@
 
 void print_rev(char *s)
 {
+
 	int i = strlen(s + 1);
 
-	while ( i >= 0)
+	while (i >= 0)
 	{
+		if (s == "")
+			break;
 		char lit = s[i];
+
 		putchar(lit);
 		lit = ' ';
 		i--;
