@@ -15,8 +15,10 @@ void print_rev(char *s)
 
 	while (i >= 0)
 	{
-		if (s == "")
+		if (s = "")
+		{
 			break;
+		}
 		char lit = s[i];
 
 		putchar(lit);
