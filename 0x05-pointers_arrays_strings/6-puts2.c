@@ -9,5 +9,5 @@
 
 void puts2(char *str)
 {
-	_putchar(str[0]);
+	putchar(str[0]);
 }
