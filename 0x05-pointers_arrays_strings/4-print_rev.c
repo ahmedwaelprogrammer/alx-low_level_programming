@@ -13,12 +13,8 @@ void print_rev(char *s)
 
 	int i = strlen(s + 1);
 
-	while (i >= 0)
+	while (i >= 0 && s != "")
 	{
-		if (s == " " || s == "")
-		{
-			break;
-		}
 		char lit = s[i];
 
 		putchar(lit);
