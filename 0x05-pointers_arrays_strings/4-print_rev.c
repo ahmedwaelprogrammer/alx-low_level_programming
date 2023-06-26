@@ -15,7 +15,7 @@ void print_rev(char *s)
 
 	while (i >= 0)
 	{
-		if (s = "")
+		if (s == " " || s == "")
 		{
 			break;
 		}
