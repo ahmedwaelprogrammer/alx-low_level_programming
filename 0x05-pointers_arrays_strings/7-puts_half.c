@@ -15,12 +15,13 @@ void puts_half(char *str)
 
 	while (i < ln)
 	{
-	if (strlen(str) % 2 == 0){
+	if (strlen(str) % 2 == 0)
+	{
 		putchar(str[i]);
 		i++;
 	} else
 	{
-		putchar(str[i+1]);
+		putchar(str[i + 1]);
 		i++;
 	}
 	}
