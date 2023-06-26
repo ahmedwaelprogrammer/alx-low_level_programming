@@ -10,13 +10,19 @@
 
 void puts_half(char *str)
 {
-	int i = 0;
+	int i = srtlen(str) / 2;
 	int ln = strlen(str);
 
 	while (i < ln)
 	{
-	putchar(str[i]);
-	i++;
+	if (strlen(str) % 2 == 0){
+		putchar(str[i]);
+		i++;
+	} else
+	{
+		putchar(str[i+1]);
+		i++;
+	}
 	}
 
 	putchar('\n');
