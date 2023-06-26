@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  *puts2 - prints every character of a string
@@ -9,7 +10,9 @@
 
 void puts2(char *str)
 {
-	for (int i = 0; i < strlen(str); i++)
+	int i = 0;
+
+	while (i < strlen(str))
 	{
 	if (i % 2 == 0)
 	{
@@ -20,5 +23,6 @@ void puts2(char *str)
 		break;
 	}
 	putchar(str[i]);
+	i++;
 	}
 }
