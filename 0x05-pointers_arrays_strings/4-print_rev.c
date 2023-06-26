@@ -12,14 +12,18 @@ void print_rev(char *s)
 {
 
 	int i = strlen(s + 1);
+	char lit;
 
 	while (i >= 0)
 	{
+		
+
 		if(s[i] == '\0')
 		{
 			break;
 		}
-		char lit = s[i];
+
+		lit = s[i];
 
 		putchar(lit);
 		lit = ' ';
