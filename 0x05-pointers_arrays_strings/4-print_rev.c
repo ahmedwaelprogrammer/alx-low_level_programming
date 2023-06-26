@@ -13,7 +13,7 @@ void print_rev(char *s)
 
 	int i = strlen(s + 1);
 
-	while (i >= 0 && s != "")
+	while (i >= 0 && s != '')
 	{
 		char lit = s[i];
 
