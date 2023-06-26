@@ -16,7 +16,7 @@ void print_rev(char *s)
 	{
 		char lit = s[i];
 		putchar(lit);
-		lit = '';
+		lit = ' ';
 		i--;
 	}
 	putchar('\n');
