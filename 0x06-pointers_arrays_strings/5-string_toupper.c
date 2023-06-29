@@ -10,14 +10,14 @@
  *Return: pointer to uppercase string.
  */
 
-char *string_toupper(char *ch)
+char *string_toupper(char x[])
 {
-	int len = strlen(ch);
+	int len = strlen(x);
 
-	for (int i = 0; i < len + 1; i++)
+	for (int i = 0; i < len; i++)
 	{
-		ch[i] = toupper(ch[i]);
+		x[i] = toupper(x[i]);
 	}
 
-	return (ch);
+	return (x);
 }
