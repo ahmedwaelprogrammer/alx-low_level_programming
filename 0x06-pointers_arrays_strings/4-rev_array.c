@@ -12,18 +12,15 @@
 
 void reverse_array(int *a, int n)
 {
-	int count = 0;
-	int arrSave[n];
+	int temp, count;
 
-	for (int i = (n - 1); i >= 0; i--)
+	n = n - 1;
+	count = 0;
+
+	while (count <= n)
 	{
-		arrSave[count] = a[i];
-		count++;
+		temp = a[count];
+		a[count++] = a[n];
+		a[n--] = temp;
 	}
-
-	for (int i = 0; i <= 4; i++)
-	{
-		a[i] = arrSave[i];
-	}
-
 }
