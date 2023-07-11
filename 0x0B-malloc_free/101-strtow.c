@@ -22,7 +22,6 @@ char **strtow(char *str)
 	if (count == 0)
 		return (NULL);
 	words = malloc((count + 1) * sizeof(char *));
-
 	if (words == NULL)
 	{
 		free(words);
@@ -36,7 +35,6 @@ char **strtow(char *str)
 			for (j = i; str[j] != ' ' && str[j] != '\0'; j++)
 				len++;
 			words[k] = malloc((len + 1) * sizeof(char));
-
 			if (words[k] == NULL)
 			{
 				for (m = 0; m < k; m++)
@@ -50,6 +48,5 @@ char **strtow(char *str)
 		}
 	}
 	words[k] = NULL;
-
 	return (words);
 }
