@@ -1,13 +1,12 @@
 #include <stdio.h>
-
+#include "lists.h"
 /**
- * premain - function that runs before main
+ * before_main - print a message before the main function is execute.
  *
- * Return: nothing
-*/
-void __attribute__ ((constructor)) premain()
+ * Return: nothing.
+ */
+void before_main(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
-
 }
